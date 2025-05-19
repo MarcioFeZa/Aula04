@@ -1,0 +1,31 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap'); /*Importando fonte do google fonts*/
+
+/*@import url('../font/RobotoMono-VariableFont_wght.ttf'); /*Utilizando 'baixada' fonte do google fonts*/
+
+@font-face {      /*Configura o caminho para encontrar a fonte utilizada*/
+    font-family: 'Roboto Mono';
+    src: url('../font/RobotoMono-VariableFont_wght.ttf');
+}
+*{
+    margin: 0;    /* define a margem em zero*/
+}
+
+.fundo{  /*estilizando a class fundo*/
+    
+    background-image: url(../img/motoca.png); /*define uma imagen de plano de fundo.*/
+    background-size: cover;  /*redimensiona a imagem de fundo para que cubra todo o espaço do fundo do elemento*/
+    background-position: center; /*define a posição inicial de cada imagem de plano de fundo*/
+    height: 100vh; /*Atura da imagem*/
+    align-content: center; /*Alinha o titulo com o centro da imagem que é o plano de fundo*/
+}
+
+.titulo{  /*estilizando a class titulo*/
+
+    color: yellow; /*Determina Cor da fonte */
+    text-align: center;
+    font-size: 50px; /*Determina Tamanho da fonte*/
+
+    font-family: 'Roboto Mono', 'Times New Roman', Arial;  /*Escolge uma sequencia de fontes a ser utilizada caso a primeira falhar segue a lista*/
+    font-weight: 700;   /*determina expessura da fonte */
+    font-style: italic;  /*Determina estilo italico na fonte*/
+}
